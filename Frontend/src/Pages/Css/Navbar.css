@@ -1,0 +1,12 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+}
+.logo{
+    height:auto;
+    width: 8%;
+}
+.navbarpartone,.navbarparttwo{
+    display: flex;
+}
