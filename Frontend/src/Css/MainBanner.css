@@ -1,0 +1,27 @@
+.demo {
+    height: auto;
+    width: 100%;
+}
+.section1text {
+    position: absolute;
+    left: 10%;
+    color: var(--secondarytext-color);
+    width: 60%;
+    padding: 15px;
+}
+.section1 {
+    display: flex;
+    align-items: center;
+}
+.section1text1 {
+    font-size: 5vw;
+}
+.section1text2{
+    font-size: 1.2vw;
+    color: rgb(173, 173, 173);
+}
+.bannershopnow{
+    font-size: 28px;
+    padding: 15px 30px;
+    border: 1px solid white;
+}

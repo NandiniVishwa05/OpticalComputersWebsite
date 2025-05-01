@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+}
+.navbarpartone {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: .2vh 1vw;
+    color: var(--primarytext-color);
+    
+}
+.navbarparttwo {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondarytext-color);
+    justify-content: space-between;
+    padding: 1vh 1vw;
+}
+.navbarpartoneoptions,
+.navbarparttwooptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 2vw;
+    padding: .3vh 1vw;
+    /* border: 1px solid red ; */
+}
+.searchbar {
+    padding: 1.2vh 1.2vw;
+    outline: none;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    font-size: 1rem;
+    width: 40vw;
+}
+.searchbtn {
+    border: none;
+    outline: none;
+    padding: 1vh .6vw;
+    background-color: var(--primarytext-color);
+    gap: .2vw;
+}
+
+.wishlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3vw;
+    font-size: .9vw;
+}

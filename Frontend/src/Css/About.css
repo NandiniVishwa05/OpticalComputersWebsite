@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+    padding: 50px;
+    background:var(--grey-section);
+    max-width: 1200px;
+    border-radius: 14px;
+    margin: auto;
+}
+.aboutpic{
+    height: auto;
+    width: 100%;
+}
+.aboutheader{
+    text-align: center;
+    font-size: 2vw;
+}
+.aboutdesc{
+    padding: 1vh 2vw;
+}
+.desc{
+    color:rgb(70, 70, 70);
+    font-size: 1.1vw;
+}
+.quotes{
+    color: rgb(73, 73, 73);
+}
+
+
+@media only screen and (min-width: 1367px) {
+    .about{
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .about{
+        display: block;
+    }
+    .desc{
+        font-size: 19px;
+    }
+    .quotes{
+        font-size: 20px;
+    }
+}

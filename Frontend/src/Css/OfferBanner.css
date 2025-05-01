@@ -1,0 +1,73 @@
+.offerbanner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+.offerbannerpic{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    max-width: 1200px;
+}
+.offerbannertextdiv{
+    position: absolute;
+    text-align: center  ;
+    right:15%;
+    width: 37%;
+}
+.offerbannertitle{
+    color:var(--offer-banner-text-color) ;
+    font-size: 40px;
+    letter-spacing: .5px;
+}
+.offerbannerdescription{
+    color: var(--secondarytext-color);
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+.offerbutton{
+    padding: 12px 25px;
+    font-size: 18px;
+    border: 1px solid rgb(207, 207, 207);
+}
+.offercardparentdiv{
+    display: flex;
+    gap :15px;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+.offercardchilddiv{
+    padding: 35px;   
+    background-color:var(--grey-section);
+    border-radius: 14px;
+    width: 25%;
+}
+.offericon{
+    border: 2px solid var(--offer-banner-text-color);
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: var(--offer-banner-text-color);
+}
+.offertitle{
+    font-size: 24px;
+}
+.offerdesc{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(114, 114, 114);
+}
+.offerbannerimage{
+    width: 100%;
+    display: block;
+}
+
+@media only screen and (min-width: 1440px) {
+    .offerbannerpic, .offercardparentdiv{
+        max-width:1440px;
+    }
+}
